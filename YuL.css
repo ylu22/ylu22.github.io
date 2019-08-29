@@ -1,0 +1,60 @@
+body {
+	background-color: #2d5986;
+	background-image: url("squarebloodmoon.jpg");
+	background-attachment: fixed;
+}
+header {
+	background-color: #3973ac;
+	background-image: url("rm10.jpg");
+	background-position: right 10px top 10px;
+	background-repeat: no-repeat;
+	height: 100px;
+	padding: 10px;
+	padding-left: 20px;
+
+}
+#rcorners {
+	border-radius: 5px;
+	background: url("rm10.jpg");
+	background-position: left top;
+	background-repeat: repeat;
+	padding: 20px;
+	width: 200px;
+	height: 200px;
+}
+footer {
+	background-color: #3973ac;
+	color: #000d1a;
+	font-family: couriernew,lucidaconcole;
+	text-align: center;
+	padding: 10px;
+}
+#content {
+	background-color: #c6d9eb;
+	padding: 20px;
+	min-height: 850px;
+}
+header, footer, #content {
+	border-style: inset;
+	border-width: 1px;
+	border-color: black;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	box-shadow: 5px 5px 5px black;
+}
+h1 {
+	color: #000033;
+	font-size: 300%;
+	font-family: cambria,courier;
+}
+h2 {
+	color: #000033;
+	font-family: verdana, arial;
+}
+.floatImg {
+	float: left;
+	margin: 0px 10px;
+}
